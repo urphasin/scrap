@@ -1,0 +1,9 @@
+.video-container {
+  block-size: 3000px;
+  inline-size: 100vw;
+  overflow: hidden;
+}
+
+video {
+  width: 100%;
+}
