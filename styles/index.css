@@ -1,3 +1,10 @@
+hr {
+  padding: 10px;
+  color: blueviolet;
+  height: 7px;
+}
+
+
 .video-container {
   block-size: max-content;
   overflow: hidden;
@@ -7,3 +14,4 @@ video {
   width: 400px;
   height: 100%;
 }
+
