@@ -5,7 +5,7 @@ function videoStuff() {
     video.currentTime = scrollPercent * video.duration;
   });
 }
-videoStuff()
+// videoStuff()
 
 function setVideoSrc() {
   const video = document.getElementById("bg-video");
@@ -15,7 +15,7 @@ function setVideoSrc() {
   if (width < 768) { video.src = "assets/shorts/video-720.mp4"; }
   else video.src = "assets/shorts/video-1080.mp4";
 }
-setVideoSrc()
+// setVideoSrc()
 
 
 function main() {
