@@ -15,7 +15,7 @@ function setVideoSrc() {
   if (width < 768) { video.src = "assets/shorts/video-720.mp4"; }
   else video.src = "assets/shorts/video-1080.mp4";
 }
-
+setVideoSrc()
 
 
 function main() {
@@ -34,7 +34,6 @@ function main() {
 
   console.log(document.querySelectorAll(".hello"));
   
-  setVideoSrc()
 
 
 }
