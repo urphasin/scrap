@@ -28,7 +28,7 @@ function main() {
 
 
 
-  console.dir(window)
+  // console.dir(window)
 
   console.log("\n\n")
 
